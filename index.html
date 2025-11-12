@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Javascript/dist/output.css">
+</head>
+
+
+<body class="h-screen bg-gradient-to-br from-[#3CA55C] to-[#B5AC49] relative">
+    <div class="flex justify-center items-center">
+        <span
+            class="msg bg-slate-400 p-2 rounded-full my-5 m-auto shadow font-semibold italic absolute top-0 transition-all ease-in-out duration-300 hidden">Copied
+            <i class="ri-check-line bg-green-500 rounded-full p-[3px] text-white"></i></span>
+    </div>
+
+    <section class="container mt-60 text-center m-auto">
+
+        <div class="flex justify-center items-center gap-20">
+            <button id="btn1"
+                class="bg-blue-950 text-white p-5 px-15 rounded-full shadow-2xl cursor-pointer italic font-semibold hover:bg-black transition-all ease-in-out duration-500">#3CA55C</button>
+            <button id="btn2"
+                class="bg-[greenyellow] p-5 px-15 rounded-full shadow-2xl cursor-pointer italic font-semibold hover:bg-white transition-all ease-in-out duration-300">#B5AC49</button>
+        </div>
+        <p class="text-center my-5 mt-5 font-semibold text-white text-shadow-2xs shadow-black">copy gradient from here<i
+                class="ri-corner-right-down-fill"></i>
+        </p>
+
+        <div class="flex justify-center items-center w-md m-auto bg-gray-500 p-4 rounded-xl border-l-3 border-amber-50">
+            <p class="colorTxt text-white">
+                background-image: linear-gradient(to bottom right, #3CA55C, #B5AC49);
+            </p>
+            <i class="copyTxt ri-file-copy-line text-white mx-2 p-2 px-3 bg-gray-400 rounded-full cursor-pointer"></i>
+
+
+        </div>
+    </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>
